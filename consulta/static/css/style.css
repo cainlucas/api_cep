@@ -1,0 +1,10 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: rgb(0, 255, 149);
+}
