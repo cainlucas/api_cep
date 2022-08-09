@@ -1,10 +1,50 @@
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:400,700"); */
+html{
+    scroll-behavior: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 
 .corpo{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    background-color: rgb(0, 255, 149);
+    width: 100%;
+    /* max-width: fit-content; */
+    /* max-height: fit-content; */
+    background: linear-gradient(rgb(239, 183, 193), rgb(174, 67, 85));
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+}
+
+.container{
+    align-items: center;
+    background-color: aliceblue;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color: rgb(255, 182, 206);
+    border-radius: 5px;
+    border-style: dotted;
+}
+
+.resposta{
+    width: 75%;
+    background-color: pink;
+    text-align: center;
+    align-items: center;
+    margin: 30px 30px 30px 100px;
+    /* height: 45%; */
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
 }
